@@ -2,20 +2,9 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
-import router from 'vue-router'
-import HelloWorld from './components/HelloWorld'
-
-Vue.use(router)
+import rt from './router/index'
 
 Vue.config.productionTip = false
-
-/* 配置路由 */
-var rt = new router({
-  routes:[{
-    path:'/hello',
-    component:HelloWorld
-  }]
-})
 
 /* eslint-disable no-new */
 new Vue({
