@@ -1,7 +1,8 @@
 <template>
   <div class="hello">
     <h1>HELLO ZQQ</h1>
-    <h2>Essential Links</h2>
+    <h2>😀</h2>
+    <h2>{{$route.params.zqqmsg}}</h2>
   </div>
 </template>
 

@@ -8,10 +8,12 @@ Vue.use(router)
 /* 配置路由 */
 export default new router({
   routes:[{
+    name:'helloworld',
     path:'/helloworld',
     component:HelloWorld
   },
   {
+    name:'hellozqq',
     path:'/hellozqq',
     component:HelloZqq
   }]

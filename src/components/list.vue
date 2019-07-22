@@ -1,7 +1,7 @@
 <template>
     <ul>
-        <li> <router-link to="helloworld">HELLOWORLD</router-link></li>
-        <li> <router-link to="hellozqq">HELLOZQQ</router-link></li>
+        <li> <router-link :to="{name:'helloworld',params:{worldmsg:'恁好世界'}}">HELLOWORLD</router-link></li>
+        <li> <router-link :to="{name:'hellozqq',params:{zqqmsg:'恁好zqq'}}">HELLOZQQ</router-link></li>
     </ul>
 </template>
 
